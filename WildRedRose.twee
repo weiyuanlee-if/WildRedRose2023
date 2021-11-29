@@ -1,0 +1,396 @@
+:: StoryTitle
+Wild Red Rose
+
+
+:: StoryData
+{
+	"ifid": "57313491-B5DB-423C-8E48-FC724FDC2A63",
+	"format": "SugarCube",
+	"format-version": "2.35.0",
+	"start": "start",
+	"zoom": 0.6
+}
+
+
+:: Story Stylesheet [stylesheet]
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.tooltip {
+  background-color: red;
+ position: relative;
+ display: inline-block;
+ border: 1px red;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; 
+  background-color: white;
+  color: #000; 
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+position: absolute;
+ z-index: 1;
+
+}
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+
+:: start [start] {"position":"7,25","size":"100,100"}
+hundreds of years have passed with no memorial stones
+how can i forgive myself without the ritual horns?
+your stool sits too long at [[this testimony->CW]]
+your stool forgets the flesh of ceremony
+
+- "ancestor's voice (male)" by Sonia Sanchez, <i>Does your house have lions?</i>
+
+
+:: Intro1 {"position":"119,125","size":"100,100"}
+<h1>After The Interrogation</h1>
+
+Tonight, there is a rain storm, drowning out any complete thoughts in Lau's mind. The folds of his forehead forming rungs of <div class="tooltip">the ladder to his rising trepidation.<span class="tooltiptext">There wasn't enough to prove anything. The lie detector picked up nothing. Yet there are traces of the victim on the ceramic tiles, within the perp's finger nails, his cupid's bow of the lips.</span></div>
+
+"Never thought I'd look at a cadaver. And call it beautiful," says a pathologist that Lau doesn't know and doesn't care to. <!--- I dont think a pathologist does autopsies???--->
+
+The body is sky blue. The eyes like white pearls. Lips parted to utter untold stories from oblivion. In the middle of the torso, four long nails had <div class="tooltip">carved rivulets.<span class="tooltiptext">At the scene, the rivers never united until they pooled blood on to the tiled floors of a public bathroom.</span></div>
+
+"Ain't never seen anything beautiful lying dead on a table." Lau thinks to himself. Finally getting a word in amongst the great wailing from the sky. <!--- Lee what the hell is that dialogue --->
+
+It's a shit friday night and the [[man's ego->Intro2]] is bruised.
+
+
+:: CW {"position":"5,126","size":"100,100"}
+<h1>Content Warning</h1>
+<i>Wild Red Rose</i> is a Magical Realist/Sci-Fi interactive fiction. It is very loosely based off Lu Xun's "Medicine", a Chinese short story about medicinal scams during Qing dynasty China. It takes place in a very fictional near-future Chinatown in a police state America.
+<ul>
+    <li>Graphic violence/A scene of gore</li>
+    <li>Drugs</li>
+    <li>Depression/suicide ideation</li>
+    <li>Interrogation</li>
+    <li>Imprisonment/Under House Arrest</li>
+    <li>Self-Neglect/Malnutrition</li>
+	<li>Obsessive/Attachment with an individual</li>
+</ul>
+<center>[[Continue->Intro1]]</center>
+
+
+:: inthekitchen {"position":"334,248","size":"100,100"}
+<h1>In the Kitchen</h1>
+
+I am sitting on my ass in the middle of [[the kitchen->kitchen]]. With [[a bucket of water->waterbucket]] on my side. My <div class="tooltip">hair<span class="tooltiptext">every year I shave it and I reveal the scar shaped like an X. I'm marked by the gods for a safe landing I guess</span></div> burns with the desire of growing healthy but in that bucket lurks [[the stench->thestench]] of my disturbance. The wipedown is too much to bear now. 
+
+It's a late afternoon, the sky is orange and that reddish pink, almost like fires spreading through the skies.
+
+But I need to care for my body, my prison cell.
+
+
+:: waterbucket {"position":"444,248","size":"100,100"}
+In the bucket is suds before I fell asleep on the cold floor. It smells like lavender and underarm. It is <div class="tooltip">lukewarm.<span class="tooltiptext">I took my last few frozen bottles of Poland Spring before they could melt fully and poured them in last night.</span></div> It's hot outside. Inside this apartment, I think the central air can't make up its mind. Yesterday, I choked on the humidity before getting head slammed onto the sidewalk. Today, there was a blizzard blowing out from the vents briefly early morning. Then suddenly the electricity went out. 
+
+I need to cool myself. Anoint my body in glacier temp water. Somehow.
+
+[[Back->inthekitchen]]<<set $cold_bucket to true>>
+
+
+:: thestench {"position":"220,358","size":"100,100"}
+My showers were shut off, since before the arrest, due to some pipe issue. So I would steal [[the neighbor's hose->hose]] and fill my bucket. It's been about a week though. I should smack the landlord.
+
+Do I need anymore charges tho? My body aches from the smackdown yesterday. I lift my shirt up and the wounds open up again. 
+
+I'm worried about smelling. What about [[infection?->inthekitchen]]
+
+
+:: startup [startup] {"position":"7,233","size":"100,100"}
+<--! plot variables -->
+
+<<set $cold_bucket to false>>
+<<set $glove_placed to false>>
+<<set $close_window to false>>
+
+
+<--! inventory variables -->
+<<set $lighter to false>>
+<<set $tall_pot to false>>
+
+
+:: hose {"position":"217,238","size":"100,100"}
+He offered it to me before the arrest. I had asked on one of the hotter days when my ass cheeks would slip on the vinyl skin of <div class="tooltip">the sofa<span class="tooltiptext">Wei gave it to me last year, but it has finally given up on holding me just around my arrest. It's like he snapped its life from the heavens.</span></div> for <div class="tooltip">the hose.<span class="tooltiptext">the gift of living in neighborhood connected chain of condos. He passed it through the window.</span></div> 
+
+We've done a few dollar exchanges and food shares. The hose thing was a surprise. But now I got the cops watching me on the leg. I know he saw me get pulled out of the house.
+
+So this [[trade relationship->inthekitchen]] is over.
+
+ 
+:: credits {"position":"5,339","size":"100,100"}
+Writing and HTML/CSS by Weiyuan Lee
+
+Title Logo by Noyemi K.
+
+Edited by Meia
+
+Betaplayers: Ly, Izak, Nashira, Maria
+
+
+:: kitchen {"position":"290,531","size":"100,100"}
+The kitchen is small, with avocado wallpaper half off the wall, so on one side there is a hole for me to settle my fist in to feel the house breathe.  
+
+I don't have enough counter space to make <div class="tooltip">big meals<span class="tooltiptext">He ain't here for that now anyway, I will offer him a diet of oranges at the temple.</span></div> for me and Wei.  Wei always hated the counters and cabinets for being white, because the grease of our daily stir fries would show. 
+
+The pots are mounted in a [[cabinet over the microwave.->cabinetmicrowave]]. I've only been using the rice cooker lately, I don't have the energy to <div class="tooltip">cook meat<span class="tooltiptext">Even though I would need it, maybe. Some animal sacrifical blood to mend me. To eat a member of the perp's kingdom.</span></div> now.
+
+In the oven, there is Wei's favorite [[wok->wok]]. A [[glove->underovenglove]] fell under the oven.
+
+<<if $tall_pot is true>>Rain starts to pour out of the cracks of [[the window.->openwindow]] Sudden gusts of wind force them to <div class="tooltip">open and close.<span class="tooltiptext">Reminds me of sudden awareness then unconsciousness.</span></div><<else>>Air blows through [[the window->openwindow]], cracked upon above the sink. I thought I closed it last night. Just perfect.<<endif>>
+
+To the left is the [[living room->living room]] where I usually sit to watch TV and nap.
+
+
+:: cabinetmicrowave {"position":"175,529","size":"100,100"}
+Inside there we have the rice cooker, slow cooker, an assortment of spatulas, ladles, and a mixer. All of these tools have made meals for Wei and I. Except Taro, that broken ass noodle machine that Wei insists on keeping. It's some retro Japanese noodlemaker that literally no normal person would use. Unless it's only me. 
+
+None of the things here will help me feel clean. Unless scrubbing yourself with dry rice will make a thorough bead wash. 
+
+Anyway, my [[body aches too much->kitchen]] to reach
+
+
+:: underovenglove {"position":"332,357","size":"100,100"}
+This is a fire hazard. Wei often told me that. Yet, it always manages to happen. I'm hoping it's Wei providing me distraction.
+
+But I try not to believe these things. I try not to think of hauntings.
+
+I put the oven mit back on the counter. It's stained with red bean sauce from two days ago.
+
+[[Return->kitchen]] <<set $glove_placed to true>>
+
+
+:: openwindow {"position":"283,639","size":"100,100"}
+<<if $tall_pot is true>>I climb onto the counters and hold the pot out into the rain. I let it fill until it was half cleansing, half aspirations. I put the water to boil. Sometimes this is how I live. 
+
+Back at [[the home village.->flashback2]] This wasn't much different.<<else>>I get up. My back aches from laying on the floor. <div class="tooltip">Hunched over,<span class="tooltiptext">I wonder if I look monstrous.</span></div> with one hand on the sill, and the other supporting me on the counter. I look out the window. 
+
+Across is the guy who loaned me his hose the other day. He's sitting and <div class="tooltip">watching TV.<span class="tooltiptext">A newsreporter with blue eyes stares a bit too long at the camera, not realizing it's time for him to speak.</span></div> I wonder if he knows I could see his bald head from here. I do know that he's witnessed me get pulled out of the house by the police.
+
+Sure, that's nothing new here. But no one ever expects for it to happen an inch away from your own wall at 1AM. 
+
+I wonder if I should say something. Maybe...ask for some help.
+
+[[Call him->call_Kundo]]
+
+[[Close the window->close_window]]
+
+
+:: call_Kundo {"position":"396,639","size":"100,100"}
+"Hey, yo Kundo! You got some water!"
+
+His head moves slightly as if he heard, but no maybe he needed to stretch his neck a little. There's no guarantee he heard me though. The TV is audible through the glass wall of his window.
+
+I dont even want to bother. We locked eyes when I was hitting the sidewalk. I've got myself marked for life.
+
+[[Return->openwindow]]
+
+
+:: close_window {"position":"396,742","size":"100,100"}
+I close the window. The gap between others and I is narrow enough for someone to be one foot in my world and theirs. I'm not in the condition nor is this the best time for the uninvited. 
+
+The kitchen becomes silent. The tiles under my feet no longer shine as I close the blinds.
+
+[[Return->openwindow]]<<set $close_window to true>>
+
+
+:: living room {"position":"742,179","size":"100,100"}
+The living room is merely a <div class="tooltip">small extension<span class="tooltiptext">Before we bought this place, the condos were being fixed up. This happened 20 years ago and I would pass the buildings on the way to school, not knowing I would be in one. They were probably nicer back then.</span></div>, no wall or floor style to indicate the <div class="tooltip">distinction.<span class="tooltiptext">Only white tile to white tile</span></div> 
+
+A small <div class="tooltip">Sony TV<span class="tooltiptext">Wei had stolen this from his childhood home before fleeing. The story he told is too out there to tell in 5 minutes.</span></div> from the 90s sits on a tall dresser. The Hello Kitty stickers are yellowed and peeling. I only turn it on to hear the weather and play some Playstation...well I <div class="tooltip">used to.<span class="tooltiptext">I was arrested while playing video games and when I panicked, I hit my foot on the top and heard a very fatal crack</span></div>
+
+The sofa is sunken in. It bleeds its stuffing. Something [[black and thin sticks out.->lighter]] I don't know what it is. But <div class="tooltip">it looks weird.<span class="tooltiptext">What I do know is that Wei liked to shove a lot of random shit in the cushions after work. Once found a box blade, twice a fork.</span</div>
+
+On the wall, a portrait of [[the Buddha->buddha]] is at slight angle.
+
+Near the TV table is the door to [[the bedroom.->bedroom]]
+
+On ther other side is the short hallway leading [[outside->outsidehallway]]
+
+Behind me is the [[kitchen->kitchen]]
+
+
+:: lighter {"position":"679,67","size":"100,100"}
+I walk up to the sofa. First thing I see is the inside piston of the lighter. I mutter under my breathe as if Wei is still here to listen to my disappointment. 
+I didn't fork in my asshole, last time he did it.
+
+I don't need a arson charge on me now either. I pull out the lighter the handle is a bright red, but the pistol is black, blending in with the black vinyl, looking like the sofa grew a limb that stood erect.
+
+I can use this to sanitize, to feed myself. [[Fire is humanity.->living room]]<<set $lighter to true>>
+
+
+:: bedroom {"position":"744,289","size":"100,100"}
+Wei and I sleep on a <div class="tooltip">queen sized bed.<span class="tooltiptext">He insisted on having it. I don't know why. Maybe it reminds him of home. We live on a upper level so the poor delievery ppl went up two flights of stairs. We could barely squeeze it through the door ourself. Almost broke a neck. Broke a Virgin Mary though.</span></div>
+
+The room has done nothing except house us for slumber. All there is a night table on the left which holds merely important papers with a lamp that lightens the room.
+
+A <div class="tooltip">floating shelf<span="tooltiptext">Containing the Tao De Jing, my foster mother's bible, my virgin mary who's head is super glued back on.</span></div> and  is above the bed. I left the ceiling fan on. That <div class="tooltip">rhythmic clinking sound<span class="tooltiptext">Reminds me of days laying in bed, watching the propellers, thinking about swimming to the rescue</span></div> is mesmerizing.
+
+In the corner of the room, there's that [[little crawl-in space->closethole]] that  I hate. Wei was messing with it the night before he was disemboweled.
+
+We would have to climb over each other to get to [[the bathroom.->bathroom]]
+
+[[Return->living room]]
+
+
+:: buddha {"position":"813,66","size":"100,100"}
+He bought this when he worked with the Changs', delievering food on a moped. The picture itself was hidden <div class="tooltip">in a locker<span class="tooltiptext">The back of the kitchen, he claimed, there was a locker all by its lonesome, for no apparent reason? But I'm betting the owner stored some cash.</span></div> he claimed and he took it with him.
+
+It sits in a black frame. I once called him a Chinese Jesus, since that what he looks like. Tall, pale, with a long face and hair pouring down the shoulders. None of the snails that settled on his during elightenment. 
+
+I still don't believe that's the buddha.
+
+[[Return->living room]]
+
+
+:: outsidehallway {"position":"1015,164","size":"100,100"}
+<<if $not_clean is false>>I'm not going out there like this.<<else>>
+
+
+:: closethole {"position":"848,290","size":"100,100"}
+I open the door, inside is a black rounded mass taking up the whole hole. It's smooth and cold to the touch. I pull it out and it's a tall pot. Something you can find in an industrial kitchen.
+
+Did Wei fucking [[steal this->itRains]] before he died?<<set $tall_pot to true>>
+
+
+:: itRains {"position":"1020,360","size":"100,100"}
+<<if $tallpot is true>>
+I didn't witness the sky get dark. But I could feel the weight of God's might. Him eyeing the earth with a look of peeve. Time to flood my anger, he says.
+
+He claps some thunder. The place gets dark. It starts pouring real hard. Time to live like the ancestors. I can use that rain.
+
+Here's the problem though. I got Wen's grip on me. Would Nature get him sniffing for me?
+
+[[I could try.->flashback1]]
+
+
+:: flashback1 {"position":"1020,472","size":"100,100"}
+We were trapped indoors during a typhoon. When this happens, Wei would <div class="tooltip">hide in the bathroom<span class="tooltiptext">There was one co-worker who came over once, he never saw this side of Wei, and started laughing, calling him child. I slap him upside his head. He never came back</span></div> and I would have to coax him out. 
+
+On this day, I wouldn't have to do that. Now, the biggest fear for him probably is the afterlife and what had happened before death. The lightning strikes and I'm reminded of why I am here. In [[America->flashback1a]],in the devil's land.
+
+
+:: wok {"position":"401,530","size":"100,100"}
+With the electricity out, I cannot use the oven unless I have my lighter. So this wok sits here cold. Seasoning and flame has made it rough and blackened. The hand of its original owner will no longer warm it. 
+
+I should [[bury it->kitchen]] with him.
+
+
+:: bathroom {"position":"742,404","size":"100,100"}
+When you walk in here, usually you would hear a drop of water hitting the linoleum of the tub. The slight crickling of the pink, plastic <div class"tooltip">shower curtain<span class="tooltiptext">It has this cartoon character from some unknown franchise. A little dog dressed as a baseball player. He has an emperor's mustache</span></div> as the force of the door opening produces the wind to do so.
+
+ Now, there is just dead silence, the cracked mirrors of [[the medicine cabinet->medicinecabinet]], and an [[open hamper->hamper]]. It smells like the oils from Wei's uniforms.
+ 
+In here I just cleanse the body, take my meds. 
+
+[[Leave->bedroom]]
+
+
+:: flashback1a {"position":"1020,580","size":"100,100"}
+I don't remember everything about my home village. All I remember is when the dam broke during the war. I was sitting on a mat in my room. Wei had said he was in the kitchen in his home. When the water gained its freedom, the town was <div class="tooltip">silenced<span class="tooltiptext">because the sudden wave had choked us before uttering the sound of begging to live, to breathe.</span></div> for a bit, before we could reach the surface again. 
+
+It was part of war. A conflict in the shadows, whispers of unholy deeds against the country. we never knew. we weren't told until we had to flee. our village full of rivers. Our mouths and eyes overflooding with grief.
+
+we once lived on boats. But [[we can't swim->flashback1end]] like we used to.
+
+
+:: flashback1end {"position":"1033,689","size":"100,100"}
+I need to collect the water. There's nothing else I can do. The acid rain ain't any worse than the water from the pipes. It's near heaven. Shouldn't be so bad. 
+
+I can drink [[till my stomach bloats->bedroom]]. I can fill tubs, soften months of rice.
+
+
+:: medicinecabinet {"position":"662,524","size":"100,100"}
+Swabs, wipes, pills, shavers, and a skin foundation package, it's a fairly normal cabinet. Except there's a [[tiger balms tin->tigerbalms]] with nails to hammer. Alchol swabs for when I need to do my shots of insulin and identity. [[Empty syringes->syringes]] are wrapped in a bag. I have 4 more of them left. I haven't been able to get more T anyway.
+
+Then there's a key to Wei's safe, that he has never told me where it's located, but I've asked multiple times. He always said to [[leave it->weiKey]] be.
+
+[[Close the cabinet->bathroom]]
+
+
+:: hamper {"position":"817,519","size":"100,100"}
+In here is all the clothes we wore for previous days, working, cooking, running, cleaning, and fucking. Now it is merely remains of a person once here.
+
+There is something haunting about this, just as much as the mere fact Wei is dead. Clothing is our second skin.
+
+I still have clean clothes on me. One of these days, I will burn Wei's. But for now doing this would be seen as a figurative [[second murder.->bathroom]]
+
+
+:: tigerbalms {"position":"574,629","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: syringes {"position":"745,630","size":"100,100"}
+Cheap syringes I bought off a man from a grocery store corner. My health insurance doesn't cover it. They are cheap enough that the slightest little push can make one crack. The neeldes are thin and I once had one get buried <div class="tooltip">under the skin.<span class="tooltiptext">Wei sure had a lot of fun removing that...</span></div>
+
+There is no use for them except to collect dust and hair. To degrade into [[invisible spheres of matter->medicinecabinet]] at some point.
+
+
+:: flashback2 {"position":"282,747","size":"100,100"}
+I came to this land on a boat. Apparently. Wei had said when we first met. We were pre-teens. But I don't remember much. Except one time when we stood at the beach and watch the water lap our toes. Our imprints forming in the sand.
+
+I wish that I could stand there forever. Stay there until I became my own memorial. I remember thinking for the <div class="tooltip">longest time<span class="tooltiptext">maybe even since the day I opened my eyes and gasped for air</span></div>, my time on this earth is short.
+
+[[Fate was wrong->flashback2aend]] though. Instead Wei had to go.
+
+
+:: flashback2aend {"position":"279,854","size":"100,100"}
+When we left the shores, we went to Catholic school. We ate frozen vegetables and hard chicken patties. I don't remember anything before the fires, except my skin and hair intermingling with <div class="tooltip">dusts.<span class="tooltiptext">The gray cloud breathes of time passed. The remains of shredded metals and tin. The flesh and memory of previous laborers.</span></div>
+
+There were no other voices except the fluctuations of mechanical movement. In some ways, machines are people even if you don't want them to be. I don't know, maybe I got clonked a few times more than I remember, because literally, all I remember is watching the spinning of wheels as clothing material became soaked with <div class="tooltip">blue ink.<span class="tooltiptext">It was such a deep , elegant blue as it dried. When wet, it was like the blueberry juice that'd roll down my palms as I pull them off my neighbor's bush for eating. Spiteful eating</span></div>
+
+I don't think there will ever be a wide enough burial for all of the people long gone in my memory. I don't know if it's healthy that all I can draw is Wei. 
+
+Maybe [[loss is a sign.->endIntro]]
+
+
+:: Intro2 {"position":"231,125","size":"100,100"}
+<h1>Case Files 1</h1>
+
+Two photos are in front of Lau. Three coffee cup stains circle around him <div class="tooltip">like a compass.<span class="tooltiptext">An intense drinker. Once a saki gulper, now he sits eyes wide, reddened.</span></div> 
+
+In the east, is his first cup, thats when he first got the case. In the west, he was gathering the details, sketching the scene. In the North, he has scoured the scene, interrogated, and he is lost. 
+
+The <div class="tooltip">two young men before him,<span class="tooltiptext">Their skin glows. The still evidence of their past self came from a previous arrest over a decade ago.</span></div> Their faces lacking guilt nor remorse, but rather a stollid stare that proved, they have done this before.
+
+On the records: As children, Meng Wei Zhang and Jun Bao Tian (place holder names)had fire bombed a factory. Two people had died. And other children had streamed out of the factory walls. Five had burned clothes.
+
+They sweated to water the growing flower of evil. The seedlings maturing in the [[growing stomaches->Intro3 Case]] of young men who bawled in silence as children.
+
+
+:: Intro3 Case {"position":"341,127","size":"100,100"}
+6/4/2005 
+
+It was midnight, I met with the owner of the gas station, <div class="tooltip">Gregory Horowitz<span class="tooltiptext">The man was still crying when I got there. I had to console him for a good five minutes before stepping into the scene.</span></div>, who had reported the murder. The store had graffiti all over its windows. The shelves of candies are full, but the cigerattes from behind the counter had its window safe cracked.
+
+I asked if Horowitz was robbed, he said no and pointed to the men's bathroom, where blood leaked.
+
+The suspect was dazed, with blood covering his face, and he was laying on the floor, looking as if he had no idea how he got there. Like some child who fell over, discovering gravity for the first time.
+
+Not far from him, head under the sink, a man had been slashed across the stomach. Muscle was visible to me right from the door way. It smelled like shit, piss and the last moment before death settles in.
+
+The suspect pretends not to notice me or perhaps he really was in the trance of the moment, the one where the body pauses to understand trauma before recollecting the conscious present.
+
+I call for backup as soon as the [[suspect's eyes->inthekitchen]] finally discover me.
+
+
+:: Plot Bang {"position":"2,446","size":"100,100"}
+
+
+:: weiKey {"position":"651,734","size":"100,100"}
+Double-click this passage to edit it.
+
+
+:: endIntro {"position":"279,967","size":"100,100"}
+Double-click this passage to edit it.
+
+
